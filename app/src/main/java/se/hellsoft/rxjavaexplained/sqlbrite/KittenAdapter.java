@@ -33,7 +33,7 @@ public class KittenAdapter extends RecyclerView.Adapter<KittenViewHolder> {
 
   public void addKitten(Kitten kitten) {
     kittens.add(kitten);
-    ;
+
     notifyItemInserted(kittens.size() - 1);
   }
 
